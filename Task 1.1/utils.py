@@ -14,9 +14,9 @@ from matplotlib.pyplot import imshow
 from matplotlib import cm
 import random
 
-data_dirs = sorted(glob("/content/Assignment/Data Visualization/data/*"))
+data_dirs = sorted(glob("./Assignment/Data Visualization/data/*"))
 
-img_dirs = sorted(glob("/content/Assignment/Data Visualization/images/*"))
+img_dirs = sorted(glob("./Assignment/Data Visualization/images/*"))
 js1 = pd.read_json(data_dirs[0])
 
 #  UTILITY FUNCTIONS
